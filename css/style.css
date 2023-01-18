@@ -210,6 +210,8 @@ padding: 0.15rem;
     flex: 1 1 80rem;
     padding: 2rem 1rem;
     padding-left: 6rem;
+    margin-left: -14rem;
+
 }
 /* info section*/
 
@@ -238,7 +240,7 @@ padding: 0.15rem;
     background: #222;
     text-align: center;
     padding: 2rem;
-    margin: 2rem;
+    margin-left:  2rem;
 }
 .about .row .counter .box span{
     font-size: 4rem;
@@ -249,6 +251,7 @@ padding: 0.15rem;
     font-size: 2rem;
     color: #fff;
 }
+
 
 #education{
     margin-top: -10rem;
@@ -398,7 +401,7 @@ padding: 0.15rem;
 
     padding:1.5rem ;
     margin: 1rem 0;
-    background: #3333;
+    background: rgba(65, 64, 64, 0.438);
     color: #fff;
     text-transform: none;
     font-size: 1.7rem;
@@ -509,7 +512,7 @@ display: none;
         }
         #tech tr td:last-child{
             
-            
+            font-size: 1.6rem;
             color: rgb(255, 255, 255);
         }
         #tech tr {
@@ -529,12 +532,12 @@ display: none;
                 text-decoration: none;
                 color: rgb(0, 110, 255);
                 background-color: #ffffff;
-                padding: 0.5rem;
-                width: 17rem  ;
+                padding: 0.1rem;
+                width: 10rem  ;
                 text-align: center;
                 font-size: 2rem;
                 font-weight: bold;
-                margin-right: 3vw;
+                margin-right: 0.5vw;
        }
        #linkedin a:hover{
         color: #000;
@@ -765,12 +768,12 @@ display: none;
 
 .about{
     width: 50rem;
-    margin-left: -2rem ;
+   
     margin-right: -10rem ;
 }
-.about > .info{
-     margin-left: -2rem ;
-    margin-right: 300rem ;
+.about .row > .info{
+     margin-left: -1rem ;
+    margin-right: -5rem ;
 }
     #abt{
         border-spacing: 1.5rem;
@@ -847,6 +850,18 @@ display: none;
         margin-top:20vh ;
       margin-bottom:20vh ;
     }
+
+    /*Contact linkedin Begins */
+    #linkedin a{
+        
+        padding: 0.5rem;
+        width: 17rem  ;
+       
+        font-size: 2rem;
+        font-weight: bold;
+        margin-right: 3vw;
+}
+       /*Contact linkedin Ends */
 
             
  
