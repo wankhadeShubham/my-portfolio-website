@@ -197,26 +197,24 @@ padding: 0.15rem;
 .home h1 span{
     color: rgb(0, 225, 255);
 }
-.about{
-    margin-left: -8rem;
+.about .heading{
+    margin-left: 10rem;
 }
-.about .row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 1rem 0;
-    
+.about .heading{
+    margin-left: 8rem;
 }
+
 
 
 .about .row .info {
-    flex: 1 1 48rem;
+    flex: 1 1 80rem;
     padding: 2rem 1rem;
     padding-left: 6rem;
 }
+/* info section*/
+
 .about .row .info h3{
-   font-size: 2rem;
+   
    color:var(--yellow);
    padding: 1rem 0;
    font-weight: normal;
@@ -252,6 +250,10 @@ padding: 0.15rem;
     color: #fff;
 }
 
+#education{
+    margin-top: -10rem;
+}
+
 .education .box-container{
 
     display: flex;
@@ -266,8 +268,8 @@ padding: 0.15rem;
 }
 
 .education .box-container .box{
-    width: 27rem;
-    margin: 3rem 1rem;
+    width: 40rem;
+    margin: 3rem 9rem;
     padding-left: 2rem;
     border-left: 0.2rem solid #fff;
     position: relative;
@@ -332,7 +334,24 @@ padding: 0.15rem;
     color: var(--yellow);
     font-weight: bold;
 }
+.rec{
+    margin-bottom: 2rem;
+    color: #fff;
+    font-size: 2rem;
+    width: 65rem;
+    margin-left: 4rem ;
+    margin-top: 1rem;
+    
+    }
 
+.rec div{
+            display: inline-block;
+            width: 14rem;
+            color: var(--yellow);
+        }
+
+
+ /* Education Ends*/       
 
 .portfolio #box-container .box:last-child{
     width: 92%;
@@ -351,6 +370,201 @@ padding: 0.15rem;
     background-color: rgba(255, 0, 106, 0.925);
     color: rgb(255, 255, 255);
 }
+
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.contact .row .content{
+
+    flex:1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0rem;
+}
+
+.contact .row form{
+
+    flex:1 1 45rem;
+    padding: 2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
+}
+
+.contact .row form .box{
+
+    padding:1.5rem ;
+    margin: 1rem 0;
+    background: #3333;
+    color: #fff;
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+}
+.contact .row form .message{
+    height: 15rem;
+    resize: none ;
+}
+
+.contact .row .content .title{
+
+    text-transform: uppercase;
+    color: #fff ;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #eee;
+    padding: 1rem 0;
+    font-weight: normal;
+    
+}
+.contact .row .content .info h3 i{
+    padding-right: 1rem ;
+    color: var(--yellow);
+}
+
+#up {
+    position: fixed;
+    z-index: 5000;
+    display: block;
+    font-size: 5rem;
+   
+     bottom: 5.5px;
+     right: 20.5px;
+
+display: none;
+} 
+#up > i{
+    
+    text-align: center;
+     color:#fbff00;
+    background-color: rgb(58, 55, 55);
+    padding: 0rem 1rem -0.01rem 1rem;
+    height: 4rem;
+    width:  4rem;
+    border-radius: 50%;
+    font-size:3rem ;
+    line-height: 3.8rem;
+    
+   
+}
+#up > i:hover{
+    color:rgb(0, 217, 255) ;
+}
+
+  /* About Section Starts*/
+
+  #abt{
+    border-spacing: 1.5rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem ;
+    
+}
+
+#abt tr {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 2rem;
+   
+}
+
+#abt tr td:last-child{
+    
+    color:var(--yellow);
+    font-size: 2rem;
+   
+}
+
+/* About Section Ends*/
+
+        /* IT PROFICIENCY Starts*/
+        #tech{
+            border-spacing: 1.5rem;
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 1rem ;
+            
+        }
+
+        #tech tr  {
+            font-weight: bold;
+            
+            color:#00ffd5;
+        }
+        #tech tr td:last-child{
+            
+            
+            color: rgb(255, 255, 255);
+        }
+        #tech tr {
+            margin: 2rem;
+           
+        }
+        /* IT PROFICIENCY Ends*/
+        #linkedin > i{
+            color: #0084ff;
+            font-size: 3rem;
+            margin-right: 1rem ;
+        }
+        #linkedin {font-weight: bold;}
+
+       #linkedin a{
+                display: inline-block;
+                text-decoration: none;
+                color: rgb(0, 110, 255);
+                background-color: #ffffff;
+                padding: 0.5rem;
+                width: 17rem  ;
+                text-align: center;
+                font-size: 2rem;
+                font-weight: bold;
+                margin-right: 3vw;
+       }
+       #linkedin a:hover{
+        color: #000;
+        background-color: var(--yellow);
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -404,6 +618,8 @@ padding: 0.15rem;
    }
     
 }
+
+
 @media (max-width:991px){
     header{
         left: -120%;
@@ -470,14 +686,17 @@ padding: 0.15rem;
  }
 
 
-
  @media (max-width:400px){
     header{
         left: 400vw;
-        min-height: 200vw;
+        max-height: 100vh;
     }
     header .navbar{
-        margin-top: 2.7vh;
+        margin-top: -1.7vh;
+                
+    }
+    .lin{
+        padding: 1.1vh;
     }
     .home{
         position: relative;
@@ -502,21 +721,7 @@ padding: 0.15rem;
         padding: 0.1rem 0.5rem 1rem 0.1em;
         margin: 0.1rem 0.5rem 1rem 0.1rem;
       }  
-      
-      .heading{
-        margin: 0 3rem;
-      }
-      .about .row .counter .box{
-        
-        width: 100%;
-        margin-left: 8rem;
-      }
-   
-      .education .box-container .box p{
-        width: 75vw;
-        font-size: 1.6rem;
-        
-      }
+
       #portfolio #box-container{
         
         display: flex;
@@ -534,8 +739,118 @@ padding: 0.15rem;
         margin-left: 10rem;
         
     }
- }
+    .contact {
+       
+        margin:3rem -1.5rem 0 -1.5rem;
+    }
+    .contact .row form{
+        width: 100%;
+        margin:3rem -1.5rem 0 -1.5rem ;
+    }
 
+    #tech{
+        align-items: center;
+        width: 100vw;
+        font-size: 1.5rem;
+        margin-left: -5rem ;
+        margin-right: -50vw ;
+    
+    }
+    #tech tr:last-child{
+        
+    }
+
+
+/* About Section Begins*/
+
+.about{
+    width: 50rem;
+    margin-left: -2rem ;
+    margin-right: -10rem ;
+}
+.about > .info{
+     margin-left: -2rem ;
+    margin-right: 300rem ;
+}
+    #abt{
+        border-spacing: 1.5rem;
+        font-size: 1.8rem;
+        
+        width: 100%;
+        font-weight: bold;
+        
+    }
+    
+    #abt tr:first {
+        
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        
+       
+    }
+    
+    #abt tr td:last-child{
+        
+        color:var(--yellow);    
+        font-size: 1.8rem;
+    }
+    .about{
+        margin-left: -10rem;
+    }
+    
+    /* About Section Ends*/
+
+    /*Educations Begins*/
+          
+    .heading{
+        margin: 0 3rem;
+      }
+     
+    #education{
+        margin-top: -10rem;
+        margin-bottom: 40vh;
+    }
+    
+    .education .box-container{
+    
+        padding-right: 1rem;
+        margin-left: -10rem;
+        margin-right: 50rem;
+        margin-top: 2rem;
+        
+    }
+      
+    .education .box-container .box h3{
+        
+        padding-top: 1.5rem ;
+        margin-left: 1.2rem;
+    }
+    
+  
+    .education .box-container .box .rec{
+        margin-bottom: 5rem;
+      
+        font-size: 1.5rem;
+        width: 75vw;
+        margin-left: 2rem ;
+        margin-top: 1rem;  
+        }
+    
+ .education .box-container .box .rec div{
+         
+         width: 8rem;
+         color: var(--yellow);
+     }
+
+   .education .box-container .box  .rec > ul > li
+    {
+        margin-top:20vh ;
+      margin-bottom:20vh ;
+    }
+
+            
+ 
+ }
 
 
 
