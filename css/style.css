@@ -662,15 +662,40 @@ display: none;
     margin: 0.1rem 0.5rem 1rem 0.1rem;
     
 }
-.education .box-container .box p{
-    width: 80vw;
-    font-size: 1.7rem;
-    margin-right: 5vw;
-  }
+
+
+
+
+.education .box-container {
+   
+    margin-right: 10vw;
+    margin-left: -13vw;
+}
+
+
   .education .box-container .box {
 
-    margin-right: 15vw;
+    margin-right: 10vw;
+    
+    
   }
+  .education .box-container .box ul li {
+
+      margin-right: 10vw;
+      margin-top: 2vh;  
+      width: 80vw;
+    
+  }
+  .education .box-container .box h3 {
+
+    width: 80vw;
+  
+}
+
+
+
+
+
   .portfolio #box-container .box{
     width: 41vw;
     
@@ -686,6 +711,20 @@ display: none;
     width: 88vw;
   
 }
+
+#tech{
+    margin-left: -10vw;
+    margin-: -10vw;
+}
+
+
+
+section{
+    margin-bottom: 55vh;
+}
+
+
+
  }
 
 
@@ -759,9 +798,7 @@ display: none;
         margin-right: -50vw ;
     
     }
-    #tech tr:last-child{
-        
-    }
+   
 
 
 /* About Section Begins*/
@@ -839,17 +876,25 @@ display: none;
         margin-top: 1rem;  
         }
     
- .education .box-container .box .rec div{
+ .education .box-container .box .rec li div{
          
-         width: 8rem;
+         width: 10rem;
          color: var(--yellow);
+         margin-right: -2vw;
+         margin-left: 1.5vw;
      }
 
-   .education .box-container .box  .rec > ul > li
+   .education .box-container .box  > ul > li
     {
-        margin-top:20vh ;
-      margin-bottom:20vh ;
+        margin-top:2vh ;
+        font-size: 1.7rem;
+       
     }
+
+   .education .box-container .box  > ul > li:last-child
+   {
+       font-size: 1.7rem;   
+   }
 
     /*Contact linkedin Begins */
     #linkedin a{
