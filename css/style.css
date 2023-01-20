@@ -49,7 +49,7 @@ section{
     cursor: pointer;
     margin-top: 1rem;
     margin-left: 0.7rem;
-    font-size: 2rem;
+    font-size: 1.rem;
     border-radius: 5rem;
 }
 #btn i{
@@ -76,8 +76,8 @@ header .user img{
     /* display: none; */
     position: absolute;
     top: -1.5rem; left: 0.5rem;
-    height: 17rem;
-    width: 17rem;
+    height: 15rem;
+    width: 15rem;
     border-radius: 50%;
     object-fit: cover;
     margin-top: 2rem;
@@ -87,12 +87,12 @@ header .user img{
 }
 #colg{
      position: relative;;
-    top: 2rem; left: 7rem;
-    margin-bottom: 3rem;
+    top: 1.5rem; left: 8.5rem;
+    margin-bottom: 2rem;
     
     z-index: 10000;
-    height: 18rem;
-    width: 18rem;
+    height: 16rem;
+    width: 16rem;
     border-radius: 50%;
     background: var(--yellow); 
  /* background: -moz-linear-gradient(45deg,#fbff00 0%,#ff7b00 25%,#ff006a 50%,#ff0066 75%,#ff0000 100%); 
@@ -122,7 +122,7 @@ header .navbar{
 }
 header .navbar ul{
     list-style: none;
-    padding: 1rem  3rem;
+    padding: 0.3rem  3rem;
 }
 
 
@@ -166,6 +166,9 @@ header .navbar ul{
 
 
 }
+
+
+
 
 
 
@@ -214,8 +217,6 @@ padding: 0.15rem;
     flex: 1 1 80rem;
     padding: 2rem 1rem;
     padding-left: 6rem;
-    margin-left: -14rem;
-
 }
 /* info section*/
 
@@ -244,7 +245,7 @@ padding: 0.15rem;
     background: #222;
     text-align: center;
     padding: 2rem;
-    margin-left:  2rem;
+    margin: 2rem;
 }
 .about .row .counter .box span{
     font-size: 4rem;
@@ -255,7 +256,6 @@ padding: 0.15rem;
     font-size: 2rem;
     color: #fff;
 }
-
 
 #education{
     margin-top: -10rem;
@@ -405,7 +405,7 @@ padding: 0.15rem;
 
     padding:1.5rem ;
     margin: 1rem 0;
-    background: rgba(65, 64, 64, 0.438);
+    background: #3333;
     color: #fff;
     text-transform: none;
     font-size: 1.7rem;
@@ -516,7 +516,7 @@ display: none;
         }
         #tech tr td:last-child{
             
-            font-size: 1.6rem;
+            
             color: rgb(255, 255, 255);
         }
         #tech tr {
@@ -536,12 +536,12 @@ display: none;
                 text-decoration: none;
                 color: rgb(0, 110, 255);
                 background-color: #ffffff;
-                padding: 0.1rem;
-                width: 10rem  ;
+                padding: 0.5rem;
+                width: 17rem  ;
                 text-align: center;
                 font-size: 2rem;
                 font-weight: bold;
-                margin-right: 0.5vw;
+                margin-right: 3vw;
        }
        #linkedin a:hover{
         color: #000;
@@ -554,67 +554,7 @@ display: none;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*------------------------------------------- Media Query  ---------------------------------------------------*/
 
 
 
@@ -638,7 +578,6 @@ display: none;
     header.toggle{
         left: 0%;
     }
-
     body{
         padding: 1rem 3rem 1rem 15rem;
     }
@@ -667,42 +606,15 @@ display: none;
     margin: 0.1rem 0.5rem 1rem 0.1rem;
     
 }
-
-header.toggle{
-    left: 0%;
-}
-
-
-.education .box-container {
-   
-    margin-right: 10vw;
-    margin-left: -13vw;
-}
-
-
+.education .box-container .box p{
+    width: 80vw;
+    font-size: 1.7rem;
+    margin-right: 5vw;
+  }
   .education .box-container .box {
 
-    margin-right: 10vw;
-    
-    
+    margin-right: 15vw;
   }
-  .education .box-container .box ul li {
-
-      margin-right: 10vw;
-      margin-top: 2vh;  
-      width: 80vw;
-    
-  }
-  .education .box-container .box h3 {
-
-    width: 80vw;
-  
-}
-
-
-
-
-
   .portfolio #box-container .box{
     width: 41vw;
     
@@ -718,48 +630,8 @@ header.toggle{
     width: 88vw;
   
 }
-
-#tech{
-    margin-left: -10vw;
-    margin-: -10vw;
-}
-
-
-
-section{
-    margin-bottom: 55vh;
-}
-
-
-
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 
  @media (max-width:400px){
     header{
@@ -831,19 +703,21 @@ section{
         margin-right: -50vw ;
     
     }
-   
+    #tech tr:last-child{
+        
+    }
 
 
 /* About Section Begins*/
 
 .about{
     width: 50rem;
-   
+    margin-left: -2rem ;
     margin-right: -10rem ;
 }
-.about .row > .info{
-     margin-left: -1rem ;
-    margin-right: -5rem ;
+.about > .info{
+     margin-left: -2rem ;
+    margin-right: 300rem ;
 }
     #abt{
         border-spacing: 1.5rem;
@@ -909,44 +783,26 @@ section{
         margin-top: 1rem;  
         }
     
- .education .box-container .box .rec li div{
+ .education .box-container .box .rec div{
          
-         width: 10rem;
+         width: 8rem;
          color: var(--yellow);
-         margin-right: -2vw;
-         margin-left: 1.5vw;
      }
 
-   .education .box-container .box  > ul > li
+   .education .box-container .box  .rec > ul > li
     {
-        margin-top:2vh ;
-        font-size: 1.7rem;
-       
+        margin-top:20vh ;
+      margin-bottom:20vh ;
     }
-
-   .education .box-container .box  > ul > li:last-child
-   {
-       font-size: 1.7rem;   
-   }
-
-    /*Contact linkedin Begins */
-    #linkedin a{
-        
-        padding: 0.5rem;
-        width: 17rem  ;
-       
-        font-size: 2rem;
-        font-weight: bold;
-        margin-right: 3vw;
-}
-       /*Contact linkedin Ends */
 
             
  
  }
 
+/*-----------------------------------------------Lanscape---------------------------------------------------------------*/
 
- @media  (orientation: landscape)   {
+
+@media (max-width:700px)  and  (orientation: landscape)   {
   
 
     header{
@@ -1054,77 +910,3 @@ section{
         }
 
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
